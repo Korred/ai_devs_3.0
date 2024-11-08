@@ -1,0 +1,28 @@
+Your task is to find a path between two nodes in a undirected graph. Your starting node is (0,0) and the target node is (5,0).  Use the instructions UP, DOWN, LEFT, RIGHT to move form one node to the next. Below is an adjacency list that contains connected nodes and the instruction used to get there:
+
+(0,0) -> [UP: (0,1)]
+(0,1) -> [UP: (0,2)]
+(0,2) -> [UP: (0,3), RIGHT: (1,2)]
+(0,3) -> [DOWN: (0,2)]
+(1,2) -> [LEFT: (0,2), RIGHT: (2,2)]
+(2,2) -> [UP: (2,3), DOWN: (2,1), LEFT: (1,2)]
+(2,3) -> [DOWN: (2,2), RIGHT: (3,3)]
+(2,1) -> [UP: (2,2), DOWN: (2,0)]
+(2,0) -> [UP: (2,1), RIGHT: (3,0)]
+(3,3) -> [LEFT: (2,3), RIGHT: (4,3)]
+(4,3) -> [LEFT: (3,3), RIGHT: (5,3), DOWN: (4,2)]
+(3,0) -> [LEFT: (2,0), RIGHT: (4,0)]
+(4,0) -> [LEFT: (3,0), RIGHT: (5,0), UP:(4,3)]
+(5,3) -> [LEFT: (4,3), DOWN: (5,2)]
+(4,2) -> [RIGHT: (5,2), UP: (4,3), DOWN: (4,1)]
+(5,2) -> [LEFT: (4,2), UP: (5,3), DOWN: (5,1)]
+(4,1) -> [UP: (4,2), DOWN: (4,0), RIGHT: (5,1)]
+(5,1) -> [LEFT: (4,1), UP: (5,2), DOWN: (5,0)]
+
+Find a valid path, step by step. Try to look-ahead and ignore nodes with a dead-end (e.g. no other move possible besides going back). Also do not move to nodes that you have already visited.
+
+To help you with a chain-of-thoughts, return the solution in the following json format:
+{
+"thoughts": [ where each entry is a thought on which step to take and why, and a string that contains all steps taken so far e.g. UP,DOWN,LEFT,RIGHT),
+"steps": a string that contains all steps taken e.g. UP,DOWN,LEFT,RIGHT, to reach node (5,0) from (0,0)
+}
