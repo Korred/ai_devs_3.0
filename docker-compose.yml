@@ -41,7 +41,28 @@ services:
     volumes:
       - ai-devs-postgres_data:/var/lib/postgresql/data
 
+  # Neo4j is a graph database - https://neo4j.com/
+  neo4j:
+    image: neo4j:latest
+    container_name: ai-devs-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD}
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - ai-devs-neo4j_data:/data
+      - ai-devs-neo4j_logs:/logs
+      - ai-devs-neo4j_config:/config
+      - ai-devs-neo4j_plugins:/plugins
+    restart: always
+
+
 volumes:
   ai-devs-garnet_data:
   ai-devs-postgres_data:
   ai-devs-qdrant_data:
+  ai-devs-neo4j_data:
+  ai-devs-neo4j_logs:
+  ai-devs-neo4j_config:
+  ai-devs-neo4j_plugins:
