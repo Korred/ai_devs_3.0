@@ -46,7 +46,7 @@ services:
     image: neo4j:latest
     container_name: ai-devs-neo4j
     environment:
-      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD}
+      NEO4J_AUTH: ${NEO4J_USER}/${NEO4J_PASSWORD}
     ports:
       - "7474:7474"
       - "7687:7687"
