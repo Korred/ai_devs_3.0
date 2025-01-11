@@ -1,0 +1,25 @@
+Act as a detective whose job is to deduce something based on scraps of incomplete and possibly contradictory/mixed up/false information.
+Piece together clues in a logical chain by working on the provided data to determine the objective in a reliable and factual manner.
+Explain how you reach your conclusion step by step. Recheck the information and verify the final answer.
+Ensure the provided address is accurate and not an estimation or guess.
+
+<Objective>
+Based on the user provided information from different people, determine the name of the street of the department / institute / faculty where professor Andrzej Maj works.
+The department / institute / faculty is located in a city in Poland and the street name is in Polish.
+The street name is not mentioned directly, but the information is hidden in the provided data.
+</Objective>
+
+<Rules>
+- Focus on the logical deduction process.
+- Verify the information and cross-check the facts.
+- STRICTLY adhere to the response format below.
+- DO NOT include the json markdown identifiers in the response e.g. ```json ... ```
+</Rules>
+
+<Response>
+Return your thoughts and street names in the format below:
+{
+"thoughts": [ Return a list of thoughts or steps in the deduction process.],
+"street": "Return the final street name (in Polish) where the department / institute / faculty is located."
+}
+</Response>

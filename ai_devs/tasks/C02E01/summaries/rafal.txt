@@ -1,0 +1,5 @@
+[
+    "Wzmianka o Jagielle sugeruje, że uczelnia, o której mowa, może mieć związek z nazwą lub patronem, który jest historyczną postacią (np. Uniwersytet Jagielloński w Krakowie).",
+    "Fragmenty tekstu odnoszące się do ulicy wskazują na miejsce związane z matematyką i komendantem, co sugeruje, że może to być ulica nazwana na cześć osoby związanej z tymi dziedzinami, potencjalnie w mieście o znaczeniu akademickim.",
+    "Wspomnienie o podróżach w czasie może być metaforą związku pracy naukowej z innowacyjnością i badaniami naukowymi w instytucie matematycznym lub związanym z naukami ścisłymi."
+]

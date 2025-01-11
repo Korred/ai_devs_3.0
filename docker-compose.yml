@@ -4,7 +4,6 @@ services:
   garnet:
     image: 'ghcr.io/microsoft/garnet'
     container_name: ai-devs-garnet
-    restart: always
     ulimits:
       memlock: -1
     ports:
@@ -17,7 +16,6 @@ services:
   qdrant:
     image: qdrant/qdrant:latest
     container_name: ai-devs-qdrant
-    restart: always
     ports:
       - "6333:6333"
       - "6334:6334"
@@ -55,8 +53,6 @@ services:
       - ai-devs-neo4j_logs:/logs
       - ai-devs-neo4j_config:/config
       - ai-devs-neo4j_plugins:/plugins
-    restart: always
-
 
 volumes:
   ai-devs-garnet_data:

@@ -1,0 +1,5 @@
+[
+    "Andrzej Maj był wykładowcą w Krakowie.",
+    "Pracował w Wydziale lub Instytucie Informatyki i Matematyki Komputerowej.",
+    "Zajmował się pracą z komputerami i sieciami neuronowymi."
+]

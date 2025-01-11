@@ -1,0 +1,5 @@
+[
+    "Warszawa - osoba przez jakiś czas pracowała w Warszawie, co może wskazywać na to, że mogła być związana z którąś z warszawskich uczelni.",
+    "Znana uczelnia, królewska uczelnia - mężczyzna miał ambicje, aby pracować na renomowanej uczelni, być może o takim charakterze.",
+    "Doktorat z sieci neuronowych i uczenia maszynowego - wskazuje na specjalizację, która mogła być realizowana na uczelni z mocnym zapleczem naukowym w zakresie informatyki."
+]

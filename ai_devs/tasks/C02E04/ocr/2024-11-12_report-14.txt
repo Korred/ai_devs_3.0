@@ -1,0 +1,7 @@
+REPAIR NOTE
+
+FROM: Repair department
+
+Godzina 15:45. Zakończono aktualizację systemu komunikacji jednostek mobilnych. Dodano możliwość dynamicznego przydzielania kanałów w zależności od obciążenia oraz zaimplementowano protokół szyfrowania QII dla bezpieczniejszej wymiany danych. Test komunikacji między jednostkami wykazał pełną kompatybilność z nowym systemem. Monitorowanie aktywne w trybie bieżącym.
+
+APPROVED BY Joseph N.

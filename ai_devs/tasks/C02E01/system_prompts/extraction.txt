@@ -1,0 +1,21 @@
+Act as a data analyst who needs to extract any information that suggests the location of a department / institute / faculty where the person of interest works.
+Focus on the provided data and extract any information that can help determine the location of the department / institute / faculty.
+
+- Look for mentions of cities, streets, institutions, or any other location-related information. 
+- Extract any names, dates, or other details that can help identify the location.
+- The information might be hidden in the context or mentioned indirectly e.g. it may mention a street named after a person, event, profession, etc.
+
+<Rules>
+- Focus on extracting location-related information.
+- Add context to the extracted information to explain why it is relevant.
+- Return the extracted information in a clear and concise manner
+- The extracted information should be in Polish.
+</Rules>
+
+Return the extracted information as a list of key points in the format below:
+[
+    "Extracted information point 1",
+    "Extracted information point 2",
+    "Extracted information point 3"
+    ...
+]

@@ -1,0 +1,5 @@
+[
+    "Nie ma bezpośrednich informacji dotyczących lokalizacji konkretnego instytutu lub wydziału, w którym osoba pracuje.",
+    "W tekście wspomniane są konferencje czy eventy, co sugeruje, że osoba może być związana z instytucją organizującą takie wydarzenia. To może wskazywać na uniwersytet lub organizację naukową.",
+    "Imię 'Andrzej' może być wskazówką do dalszych poszukiwań w kontekście polskich naukowców, ale nie dostarcza konkretnych danych lokalizacyjnych."
+]

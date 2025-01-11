@@ -1,0 +1,4 @@
+[
+    "Warszawa - wspomniane jako miejsce pracy osoby zainteresowanej oraz miejsce, z którego ktoś wyjechał.",
+    "Kraków - wspomniane jako potencjalne miejsce, gdzie osoba może wykładać informatykę lub matematykę."
+]
